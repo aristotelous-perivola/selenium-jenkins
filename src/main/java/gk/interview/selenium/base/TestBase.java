@@ -21,7 +21,7 @@ public class TestBase {
 
     public void configureOnStartUp() {
         String browser = "chrome";
-        String remoteUrl = "http://localhost:4444";
+        String remoteUrl = null;// = "http://localhost:4444";
         WebDriver d;
 
         DriverType driverType = Arrays.stream(DriverType.values())
