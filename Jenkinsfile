@@ -18,7 +18,7 @@ pipeline {
                        reportDir: 'target/cucumber-html-reports',
                        reportFiles: '*.html',
                        reportName: 'HTML Report',
-                       reportTitles: '',
+                       reportTitles: 'Selenium Execution Report',
                        useWrapperFileDirectly: true])
                 }
             }
