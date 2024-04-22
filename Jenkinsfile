@@ -16,7 +16,7 @@ pipeline {
                        alwaysLinkToLastBuild: false,
                        keepAll: false,
                        reportDir: 'target/cucumber-html-reports',
-                       reportFiles: 'overview-features.html',
+                       reportFiles: 'report-feature_*.html',
                        reportName: 'HTML Report',
                        reportTitles: '',
                        useWrapperFileDirectly: true])
